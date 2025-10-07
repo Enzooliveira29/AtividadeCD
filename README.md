@@ -1,4 +1,5 @@
-Ciência dos Dados
+## Ciência dos Dados
 
-Ativar venv (Windows cmd):
-.venv\Scripts\activate.bat
+1. Ativar venv (Windows cmd):
+
+     .venv\Scripts\activate.bat
