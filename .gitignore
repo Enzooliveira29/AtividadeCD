@@ -1,1 +1,5 @@
 .venv
+data/disney_movies.csv
+data/imdb_melhores.csv
+data/movies.csv
+data/ratings.csv
