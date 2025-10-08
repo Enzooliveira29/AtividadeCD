@@ -1,5 +1,2 @@
 .venv
-data/disney_movies.csv
-data/imdb_melhores.csv
-data/data1/movies.csv
-data/data1/ratings.csv
+data/*
