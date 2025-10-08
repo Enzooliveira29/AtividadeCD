@@ -1,0 +1,25 @@
+Variables Table,,,,,,
+Variable Name,Role,Type,Demographic,Description,Unites,Misssing Values
+id,Identificador,Num�rico,N/A,Identificador �nico para cada filme,N/A,0
+title,Descritor,String,N/A,Nome do filme,N/A,0
+link,Refer�ncia,URL,N/A,Link para o site do filme,N/A,0
+year,Temporal,Inteiro,N/A,Ano de lan�amento do filme,Ano,0
+duration,Temporal,Inteiro,N/A,Dura��o do filme,Minutos,221
+rating_mpa,Classifica��o,String,N/A,Classifica��o do filme pela MPAA (Motion Picture Association of America),,7976
+rating_imdb,Classifica��o,Decimal,N/A,Avalia��o do filme no IMDb (Internet Movie Database),Nota de 1 - 10,138
+vote,Quantitativo,Inteiro,N/A,N�mero total de votos no IMDb,N�mero de votos,138
+budget,Financeiro,Decimal,N/A,Or�amento do filme em D�lares,USD ($),21785
+gross_world_wide,Financeiro,Decimal,N/A,Receita bruta mundial do filme,USD ($),15378
+gross_us_canada,Financeiro,Decimal,N/A,Receita bruta nos EUA e Canad�,USD ($),16029
+gross_opening_weekend,Financeiro,Decimal,N/A,Receita do primeiro final de semana de exibi��o,USD ($),18077
+director,Descritor,String,N/A,Nome do diretor do filme,,359
+writer,Descritor,String,N/A,Nome do roteirista do filme,,1576
+star,Descritor,String,N/A,Nome dos atores principais,,473
+genre,Categoria,String,N/A,G�nero do filme,,382
+country_origin,Demogr�fico,String,Pa�s,Pa�s de origem do filme,,366
+filming_location,Demogr�fico,String,Local,Local onde o filme foi gravado,,6729
+language,Demogr�fico,String,Idioma,Idioma original do filme,,1378
+win,Resultado,Inteiro,,,,491
+nomination,Resultado,Inteiro,,N�mero de indica��es ao Oscar,,0
+oscar,Resultado,Inteiro,,N�mero de vit�rias no Oscar,,0
+,,,,,,0
