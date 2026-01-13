@@ -1,0 +1,82 @@
+{
+  "results": [
+    {
+      "vectorizer": "Bag of Words",
+      "classifier": "NaiveBayes",
+      "best_cv_f1_macro": 0.8527338572400318,
+      "test_accuracy": 0.8479579458147999,
+      "test_f1_macro": 0.8479248177671821,
+      "test_precision_macro": 0.8483131431415536,
+      "test_recall_macro": 0.8479805331075871,
+      "train_time_seconds": 477.6855959892273,
+      "best_params": "{'classifier__alpha': 1.0, 'vectorizer__max_df': 0.8, 'vectorizer__max_features': 5000, 'vectorizer__min_df': 5, 'vectorizer__ngram_range': (1, 2), 'vectorizer__stop_words': ['a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'ao', 'aos', 'do', 'da', 'dos', 'das', 'no', 'na', 'nos', 'nas', 'pelo', 'pela', 'pelos', 'pelas', 'eu', 'tu', 'ele', 'ela', 'nos', 'vos', 'eles', 'elas', 'me', 'te', 'se', 'lhe', 'lhes', 'de', 'em', 'por', 'para', 'com', 'sob', 'sobre', 'entre', 'ate', 'desde', 'contra', 'perante', 'atraves', 'alem', 'dentro', 'fora', 'perto', 'longe', 'durante', 'e', 'ou', 'porque', 'pois', 'que', 'como', 'quando', 'embora', 'entao', 'tambem', 'caso', 'ainda', 'fim', 'objetivo', 'aquele', 'aquela', 'aquilo', 'aqueles', 'aquelas', 'deste', 'desta', 'destes', 'destas', 'disso', 'daquilo', 'nisto', 'naquilo', 'la', 'aqui', 'ali', 'onde', 'aonde']}"
+    },
+    {
+      "vectorizer": "Bag of Words",
+      "classifier": "LogisticRegression",
+      "best_cv_f1_macro": 0.8707426178785035,
+      "test_accuracy": 0.8707035988677719,
+      "test_f1_macro": 0.8706996016572086,
+      "test_precision_macro": 0.8707707307946925,
+      "test_recall_macro": 0.8707132119877854,
+      "train_time_seconds": 1225.1085131168365,
+      "best_params": "{'classifier__C': 0.1, 'classifier__class_weight': None, 'vectorizer__max_df': 0.9, 'vectorizer__max_features': 5000, 'vectorizer__min_df': 2, 'vectorizer__ngram_range': (1, 2), 'vectorizer__stop_words': ['a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'ao', 'aos', 'do', 'da', 'dos', 'das', 'no', 'na', 'nos', 'nas', 'pelo', 'pela', 'pelos', 'pelas', 'eu', 'tu', 'ele', 'ela', 'nos', 'vos', 'eles', 'elas', 'me', 'te', 'se', 'lhe', 'lhes', 'de', 'em', 'por', 'para', 'com', 'sob', 'sobre', 'entre', 'ate', 'desde', 'contra', 'perante', 'atraves', 'alem', 'dentro', 'fora', 'perto', 'longe', 'durante', 'e', 'ou', 'porque', 'pois', 'que', 'como', 'quando', 'embora', 'entao', 'tambem', 'caso', 'ainda', 'fim', 'objetivo', 'aquele', 'aquela', 'aquilo', 'aqueles', 'aquelas', 'deste', 'desta', 'destes', 'destas', 'disso', 'daquilo', 'nisto', 'naquilo', 'la', 'aqui', 'ali', 'onde', 'aonde']}"
+    },
+    {
+      "vectorizer": "Bag of Words",
+      "classifier": "SVM",
+      "best_cv_f1_macro": 0.8256538824371727,
+      "test_accuracy": 0.8243024666397089,
+      "test_f1_macro": 0.8243010589174058,
+      "test_precision_macro": 0.8243053084366975,
+      "test_recall_macro": 0.8243001116753813,
+      "train_time_seconds": 1868.5759015083313,
+      "best_params": "{'classifier__C': 1.0, 'vectorizer__max_df': 0.9, 'vectorizer__max_features': 5000, 'vectorizer__min_df': 2, 'vectorizer__ngram_range': (1, 2), 'vectorizer__stop_words': ['a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'ao', 'aos', 'do', 'da', 'dos', 'das', 'no', 'na', 'nos', 'nas', 'pelo', 'pela', 'pelos', 'pelas', 'eu', 'tu', 'ele', 'ela', 'nos', 'vos', 'eles', 'elas', 'me', 'te', 'se', 'lhe', 'lhes', 'de', 'em', 'por', 'para', 'com', 'sob', 'sobre', 'entre', 'ate', 'desde', 'contra', 'perante', 'atraves', 'alem', 'dentro', 'fora', 'perto', 'longe', 'durante', 'e', 'ou', 'porque', 'pois', 'que', 'como', 'quando', 'embora', 'entao', 'tambem', 'caso', 'ainda', 'fim', 'objetivo', 'aquele', 'aquela', 'aquilo', 'aqueles', 'aquelas', 'deste', 'desta', 'destes', 'destas', 'disso', 'daquilo', 'nisto', 'naquilo', 'la', 'aqui', 'ali', 'onde', 'aonde']}"
+    },
+    {
+      "vectorizer": "TF-IDF",
+      "classifier": "NaiveBayes",
+      "best_cv_f1_macro": 0.8588053825510112,
+      "test_accuracy": 0.8566518398706026,
+      "test_f1_macro": 0.8566214561513716,
+      "test_precision_macro": 0.8570061965747706,
+      "test_recall_macro": 0.8566741584295905,
+      "train_time_seconds": 1392.7459125518799,
+      "best_params": "{'classifier__alpha': 1.0, 'vectorizer__max_df': 0.9, 'vectorizer__max_features': 5000, 'vectorizer__min_df': 2, 'vectorizer__ngram_range': (1, 2), 'vectorizer__stop_words': ['a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'ao', 'aos', 'do', 'da', 'dos', 'das', 'no', 'na', 'nos', 'nas', 'pelo', 'pela', 'pelos', 'pelas', 'eu', 'tu', 'ele', 'ela', 'nos', 'vos', 'eles', 'elas', 'me', 'te', 'se', 'lhe', 'lhes', 'de', 'em', 'por', 'para', 'com', 'sob', 'sobre', 'entre', 'ate', 'desde', 'contra', 'perante', 'atraves', 'alem', 'dentro', 'fora', 'perto', 'longe', 'durante', 'e', 'ou', 'porque', 'pois', 'que', 'como', 'quando', 'embora', 'entao', 'tambem', 'caso', 'ainda', 'fim', 'objetivo', 'aquele', 'aquela', 'aquilo', 'aqueles', 'aquelas', 'deste', 'desta', 'destes', 'destas', 'disso', 'daquilo', 'nisto', 'naquilo', 'la', 'aqui', 'ali', 'onde', 'aonde'], 'vectorizer__sublinear_tf': True}"
+    },
+    {
+      "vectorizer": "TF-IDF",
+      "classifier": "LogisticRegression",
+      "best_cv_f1_macro": 0.8824092271228748,
+      "test_accuracy": 0.8789931257581884,
+      "test_f1_macro": 0.8789725434009454,
+      "test_precision_macro": 0.8792993656630019,
+      "test_recall_macro": 0.8790133429577163,
+      "train_time_seconds": 2001.794934272766,
+      "best_params": "{'classifier__C': 1.0, 'classifier__class_weight': None, 'vectorizer__max_df': 0.8, 'vectorizer__max_features': 5000, 'vectorizer__min_df': 5, 'vectorizer__ngram_range': (1, 2), 'vectorizer__stop_words': ['a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'ao', 'aos', 'do', 'da', 'dos', 'das', 'no', 'na', 'nos', 'nas', 'pelo', 'pela', 'pelos', 'pelas', 'eu', 'tu', 'ele', 'ela', 'nos', 'vos', 'eles', 'elas', 'me', 'te', 'se', 'lhe', 'lhes', 'de', 'em', 'por', 'para', 'com', 'sob', 'sobre', 'entre', 'ate', 'desde', 'contra', 'perante', 'atraves', 'alem', 'dentro', 'fora', 'perto', 'longe', 'durante', 'e', 'ou', 'porque', 'pois', 'que', 'como', 'quando', 'embora', 'entao', 'tambem', 'caso', 'ainda', 'fim', 'objetivo', 'aquele', 'aquela', 'aquilo', 'aqueles', 'aquelas', 'deste', 'desta', 'destes', 'destas', 'disso', 'daquilo', 'nisto', 'naquilo', 'la', 'aqui', 'ali', 'onde', 'aonde'], 'vectorizer__sublinear_tf': True}"
+    },
+    {
+      "vectorizer": "TF-IDF",
+      "classifier": "SVM",
+      "best_cv_f1_macro": 0.8691248824858135,
+      "test_accuracy": 0.8680752122927619,
+      "test_f1_macro": 0.8680724821069601,
+      "test_precision_macro": 0.8681233425123216,
+      "test_recall_macro": 0.868083389408118,
+      "train_time_seconds": 1033.3549966812134,
+      "best_params": "{'classifier__C': 1.0, 'vectorizer__max_df': 0.8, 'vectorizer__max_features': 5000, 'vectorizer__min_df': 5, 'vectorizer__ngram_range': (1, 2), 'vectorizer__stop_words': ['a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'ao', 'aos', 'do', 'da', 'dos', 'das', 'no', 'na', 'nos', 'nas', 'pelo', 'pela', 'pelos', 'pelas', 'eu', 'tu', 'ele', 'ela', 'nos', 'vos', 'eles', 'elas', 'me', 'te', 'se', 'lhe', 'lhes', 'de', 'em', 'por', 'para', 'com', 'sob', 'sobre', 'entre', 'ate', 'desde', 'contra', 'perante', 'atraves', 'alem', 'dentro', 'fora', 'perto', 'longe', 'durante', 'e', 'ou', 'porque', 'pois', 'que', 'como', 'quando', 'embora', 'entao', 'tambem', 'caso', 'ainda', 'fim', 'objetivo', 'aquele', 'aquela', 'aquilo', 'aqueles', 'aquelas', 'deste', 'desta', 'destes', 'destas', 'disso', 'daquilo', 'nisto', 'naquilo', 'la', 'aqui', 'ali', 'onde', 'aonde'], 'vectorizer__sublinear_tf': True}"
+    }
+  ],
+  "best_model": {
+    "vectorizer": "TF-IDF",
+    "classifier": "LogisticRegression",
+    "best_cv_f1_macro": 0.8824092271228748,
+    "test_accuracy": 0.8789931257581884,
+    "test_f1_macro": 0.8789725434009454,
+    "test_precision_macro": 0.8792993656630019,
+    "test_recall_macro": 0.8790133429577163,
+    "train_time_seconds": 2001.794934272766,
+    "best_params": "{'classifier__C': 1.0, 'classifier__class_weight': None, 'vectorizer__max_df': 0.8, 'vectorizer__max_features': 5000, 'vectorizer__min_df': 5, 'vectorizer__ngram_range': (1, 2), 'vectorizer__stop_words': ['a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'ao', 'aos', 'do', 'da', 'dos', 'das', 'no', 'na', 'nos', 'nas', 'pelo', 'pela', 'pelos', 'pelas', 'eu', 'tu', 'ele', 'ela', 'nos', 'vos', 'eles', 'elas', 'me', 'te', 'se', 'lhe', 'lhes', 'de', 'em', 'por', 'para', 'com', 'sob', 'sobre', 'entre', 'ate', 'desde', 'contra', 'perante', 'atraves', 'alem', 'dentro', 'fora', 'perto', 'longe', 'durante', 'e', 'ou', 'porque', 'pois', 'que', 'como', 'quando', 'embora', 'entao', 'tambem', 'caso', 'ainda', 'fim', 'objetivo', 'aquele', 'aquela', 'aquilo', 'aqueles', 'aquelas', 'deste', 'desta', 'destes', 'destas', 'disso', 'daquilo', 'nisto', 'naquilo', 'la', 'aqui', 'ali', 'onde', 'aonde'], 'vectorizer__sublinear_tf': True}"
+  },
+  "timestamp": "2026-01-12T19:48:38.978313"
+}
